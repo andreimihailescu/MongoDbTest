@@ -1,5 +1,5 @@
 <?php
-require '../resources/db.php';
+require 'db.php';
 
 $getAll = $db->persons->find();
 ?>
